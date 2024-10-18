@@ -36,6 +36,10 @@
       git count-objects --human-readable --verbose
     '';
 
+    serve-media.exec = ''
+      python3 -m http.server --directory media 8080
+    '';
+
     versions.exec = ''
       echo "=== Versions ==="
       git --version
