@@ -12,4 +12,4 @@ location:
   longitude: 10.24949
 ---
 
-Callisthenics on the beach
+Calisthenics on the beach
