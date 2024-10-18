@@ -9,9 +9,7 @@
     versions
   '';
 
-  env = {
-    PATH_TO_REMOVE_FROM_GIT_HISTORY = "media/photos/2024/10/17/img-20230210-135327.jpg";
-  };
+  env = {};
 
   languages = {
     nix.enable = true;
@@ -31,10 +29,6 @@
     largest-blobs.exec = ''
       git filter-repo --analyze --force
       cat .git/filter-repo/analysis/blob-shas-and-paths.txt | head -n 7
-    '';
-
-    remove-file-from-history.exec = ''
-      git filter-repo --path ${config.env.PATH_TO_REMOVE_FROM_GIT_HISTORY} --invert-paths
     '';
 
     repo-size.exec = ''
