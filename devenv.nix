@@ -1,11 +1,7 @@
-{
-  pkgs,
-  lib,
-  config,
-  inputs,
-  ...
-}: {
+{pkgs, ...}: {
   enterShell = ''
+    echo "Pulling from origin..."
+    git pull origin main
     versions
   '';
 
@@ -22,7 +18,10 @@
   ];
 
   pre-commit.hooks = {
+    alejandra.enable = true;
+    deadnix.enable = true;
     shellcheck.enable = true;
+    statix.enable = true;
   };
 
   scripts = {
