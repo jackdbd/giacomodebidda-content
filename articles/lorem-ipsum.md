@@ -1,8 +1,8 @@
 ---
-date: 2024-10-17T21:32:35.940+02:00
-title: Lorem ipsum
-summary: This is the summary of a Lorem ipsum
 category: test
+date: 2024-10-17T21:32:35.940+02:00
+summary: This is the summary of a Lorem ipsum
+title: Lorem ipsum
 visibility: public
 ---
 

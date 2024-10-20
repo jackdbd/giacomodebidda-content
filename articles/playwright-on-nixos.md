@@ -1,5 +1,4 @@
 ---
-title: Playwright on NixOS
 date: "2024-02-07T21:30:00.000Z"
 description: How to run Playwright e2e tests on NixOS.
 ogp:
@@ -11,6 +10,7 @@ tags:
   - NixOS
   - Playwright
   - tests
+title: Playwright on NixOS
 ---
 I have been using NixOS for a few months now, and while it's awesome to have an immutable configuration for my laptop, it's not always easy to setup a development environment with all the necessary dependencies.
 
