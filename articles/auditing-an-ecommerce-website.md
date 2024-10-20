@@ -110,7 +110,7 @@ Permissions-Policy is quite a recent header, so I am not surprised I did not fin
 
 Most websites depend on some JavaScript library. Likely more than one. Modern JavaScript frameworks like [React](https://trends.builtwith.com/javascript/React) or [Vue](https://trends.builtwith.com/javascript/Vue) are all the rage now, but in reality most of the websites today still use [jQuery](https://trends.builtwith.com/javascript/jQuery). This website is one of them.
 
-Using libraries we didn't write doesn't mean that their bugs and vulnerabilties are not ours to care about. We should never use a library without auditing it first, and without keeping it up to date. New vulnerabilites are discovered every day, and we should update our libraries to get the latest bug fixes and security patches.
+Using libraries we didn't write doesn't mean that their bugs and vulnerabilities are not ours to care about. We should never use a library without auditing it first, and without keeping it up to date. New vulnerabilities are discovered every day, and we should update our libraries to get the latest bug fixes and security patches.
 
 > It may not be your fault, but it’s always your responsibility
 >
@@ -541,7 +541,7 @@ Second, clients don't immediately connect to a server using HTTP/3. Instead, [th
 alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
 ```
 
-Chrome and all major browsers have been [supporting HTTP/3](https://caniuse.com/http3) for quite some time now, but their first connection with an HTTP/3-compatible server will still occurr over HTTP/2. We can see this by examining the first request in the WebPageTest waterfall.
+Chrome and all major browsers have been [supporting HTTP/3](https://caniuse.com/http3) for quite some time now, but their first connection with an HTTP/3-compatible server will still occur over HTTP/2. We can see this by examining the first request in the WebPageTest waterfall.
 
 https://res.cloudinary.com/jackdbd/image/upload/v1691163842/vino-com-main-http2_ja03gk.png
 
@@ -922,7 +922,7 @@ Each HTTP 304 redirect means that the browser revalidated the resource against t
 
 The thing is, these redirects introduce a performance penalty which [sometimes can be rather significant](http://bitsup.blogspot.com/2016/05/cache-control-immutable.html).
 
-Images hosted at `resources.vino.com` will likely never change, so we can tell the browser to cache them for one year and to never revalidate them agains the server. We can achieve this by serving the images with this `Cache-Control` header.
+Images hosted at `resources.vino.com` will likely never change, so we can tell the browser to cache them for one year and to never revalidate them against the server. We can achieve this by serving the images with this `Cache-Control` header.
 
 ```text
 Cache-Control: public, max-age=31536000, immutable
@@ -948,7 +948,7 @@ There are several things we could try to make the home page of [www.vino.com](ht
 - Return a `Content-Security-Policy` header to mitigate XSS attacks, and maybe also a Permissions-Policy to limit which browser APIs a third-party script is allowed to access on a page.
 - Add a [Reporting-Endpoints](https://www.w3.org/TR/reporting-1/#header) header to track Content-Security-Policy violations, browser crashes, deprecation warnings.
 - Implement some form af cache busting for CSS and JS, so we can use `Cache-Control: immutable` for those assets too.
-- Be sure to avoid shipping code with known vulnerabilities, maybe by runnning `npm audit --audit-level=moderate` in the CI pipeline.
+- Be sure to avoid shipping code with known vulnerabilities, maybe by running `npm audit --audit-level=moderate` in the CI pipeline.
 - Consider building multiple sitemaps, and see if this translates into SEO improvements.
 - Consider alternatives to reCAPTCHA. It has a huge performance cost, especially on low-end mobile phones.
 - Make the product images more accessible (i.e. use an `<img>` element with an appropriate `alt` attribute).

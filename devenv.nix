@@ -20,16 +20,29 @@
   pre-commit.hooks = {
     alejandra.enable = true;
     deadnix.enable = true;
-    denofmt.enable = true;
+
+    # Maybe enable this in combination with markdownlint.
+    # denofmt.enable = true;
+
     html-tidy.enable = true;
+
+    # This checks permalinks but it's very slow.
     # lychee.enable = true;
-    markdownlint.enable = true;
-    shellcheck.enable = true;
+
+    # This is certainly useful, but there so many linting errors in my files...
+    # markdownlint.enable = true;
+
     statix.enable = true;
+
+    # Super useful. It catches a lot of typos. But since it's mostly for source
+    # code, non-English names in my articles are often flagged. To avoid these
+    # false positives one can configure a TOML config file.
+    # https://github.com/crate-ci/typos?tab=readme-ov-file#false-positives
     typos = {
       enable = true;
       excludes = [
-        "articles/lorem-ipsum.md"
+        "articles/interesting-things-other-people-did-in-2016.md"
+        "articles/interesting-things-other-people-did-in-2017.md"
       ];
     };
   };
