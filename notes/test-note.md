@@ -1,12 +1,11 @@
 ---
-category: test
-date: 2024-10-17T21:11:34.794+02:00
-location:
-  type: geo
-  name: 43° 46′ 40.98″ N 10° 19′ 54.30″ E
-  latitude: 43.77805
-  longitude: 10.33175
+category:
+  - micropub
+  - indieweb
+date: 2024-10-17T19:11:34.794Z
 visibility: public
+syndication:
+  - http://web.archive.org/web/20040104110725/https://aaronpk.example/2014/06/01/9/indieweb
 ---
 
-This is a test note.
+test note **updated**
