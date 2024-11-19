@@ -2,6 +2,7 @@
 category:
   - micropub
   - indieweb
+  - test
 date: 2024-10-17T19:11:34.794Z
 visibility: public
 syndication:
