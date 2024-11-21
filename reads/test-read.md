@@ -1,6 +1,6 @@
 ---
 mp-slug: test-read
-summary: "Want to read: Title by Author, ISBN: ISBN"
+summary: This is the summary of the book
 read-status: to-read
 read-of:
   type: cite
@@ -10,4 +10,8 @@ read-of:
 visibility: public
 post-status: published
 date: 2024-11-21T21:07:54.929Z
+category:
+  - bruno
+  - test
+updated: 2024-11-21T21:10:07.595Z
 ---
