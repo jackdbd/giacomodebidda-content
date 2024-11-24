@@ -1,5 +1,0 @@
----
-path: cards/test-card.md
----
-
-LS0tCm5hbWU6IEdpYWNvbW8gRGViaWRkYQpqb2ItdGl0bGU6IGRldmVsb3BlcgptcC1zbHVnOiB0ZXN0LWNhcmQKZGF0ZTogMjAyNC0xMS0yMlQyMjoyNjo1OC45NjlaCi0tLQo=
