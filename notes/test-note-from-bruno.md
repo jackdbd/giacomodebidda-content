@@ -15,7 +15,7 @@ mp-syndicate-to:
   - https://news.indieweb.org/en
 syndication:
   - http://web.archive.org/web/20040104110725/https://aaronpk.example/2014/06/01/9/indieweb
-updated: 2024-11-29T00:08:51.050Z
+updated: 2024-11-29T00:09:06.729Z
 ---
 
 <p>This is a <b>test note</b>.</p>
