@@ -9,7 +9,6 @@ location:
 mp-syndicate-to:
   - https://fosstodon.org/@jackdbd
   - https://www.linkedin.com/in/giacomodebidda/
-  - https://t.me/+rQSrJsu5RtgzNjM0
 audio: https://content.giacomodebidda.com/media/example_700KB.mp3
 photo:
   alt: View of El Médano in Tenerife. A few kitesurfers are in the water. A few
@@ -18,7 +17,9 @@ photo:
 video: https://content.giacomodebidda.com/media/file_example_WEBM_480_900KB.webm
 date: 2024-12-01T21:04:48.000Z
 visibility: public
-updated: 2024-12-01T22:51:31+01:00
+updated: 2024-12-02T00:12:15+01:00
+syndication:
+  - https://t.me/+rQSrJsu5RtgzNjM0
 ---
 
 <p>This is a <strong>sample</strong> note from <a href="https://github.com/usebruno/bruno">Bruno</a>.</p>
