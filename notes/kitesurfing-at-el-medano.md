@@ -18,7 +18,7 @@ photo:
 video: https://content.giacomodebidda.com/media/file_example_WEBM_480_900KB.webm
 date: 2024-12-01T21:04:48.000Z
 visibility: public
-updated: 2024-12-01T22:31:05+01:00
+updated: 2024-12-01T22:51:31+01:00
 ---
 
-<p>Sample <strong>note</strong> from <a href="https: //github.com/usebruno/bruno">Bruno</a></p>
+<p>This is a <strong>sample</strong> note from <a href="https://github.com/usebruno/bruno">Bruno</a>.</p>
