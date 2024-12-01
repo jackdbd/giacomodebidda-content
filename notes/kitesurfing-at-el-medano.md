@@ -17,7 +17,7 @@ photo:
 video: https://content.giacomodebidda.com/media/file_example_WEBM_480_900KB.webm
 date: 2024-12-01T21:04:48.000Z
 visibility: public
-updated: 2024-12-02T00:12:15+01:00
+updated: 2024-12-02T00:13:06+01:00
 syndication:
   - https://t.me/+rQSrJsu5RtgzNjM0
 ---
