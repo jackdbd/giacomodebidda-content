@@ -7,13 +7,12 @@ category:
 author: Giacomo Debidda
 mp-syndicate-to:
   - https://fosstodon.org/@jackdbd
-  - https://t.me/+rQSrJsu5RtgzNjM0
-  - https://news.indieweb.org/en
+  - https://www.linkedin.com/in/giacomodebidda/
 date: 2024-11-30T15:35:41.000Z
 visibility: public
 syndication:
-  - fake-telegram-url
-updated: 2024-12-01T23:55:27+01:00
+  - https://t.me/+rQSrJsu5RtgzNjM0
+updated: 2024-12-01T23:56:01+01:00
 ---
 
 <p>This is a <strong>test note</strong>.</p>
