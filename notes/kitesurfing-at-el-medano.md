@@ -3,9 +3,8 @@ category:
   - test
   - bruno
 location:
-  latitude: 43.87369
-  longitude: 10.24949
-  locality: El Médano
+  latitude: 28.045983
+  longitude: "-16.536311"
 mp-syndicate-to:
   - https://fosstodon.org/@jackdbd
   - https://www.linkedin.com/in/giacomodebidda/
@@ -16,8 +15,9 @@ photo:
     other ones are on the beach, preparing their kites.
   value: https://content.giacomodebidda.com/media/photos/2024/10/18/el-medano-tenerife-2023.jpg
 video: https://content.giacomodebidda.com/media/file_example_WEBM_480_900KB.webm
-date: 2024-12-01T22:04:48+01:00
+date: 2024-12-01T21:04:48.000Z
 visibility: public
+updated: 2024-12-01T22:30:12+01:00
 ---
 
 <p>Sample <strong>note</strong> from <a href="https: //github.com/usebruno/bruno">Bruno</a></p>
