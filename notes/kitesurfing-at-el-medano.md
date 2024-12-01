@@ -4,7 +4,8 @@ category:
   - bruno
 location:
   latitude: 28.045983
-  longitude: "-16.536311"
+  longitude: -16.536311
+  locality: El Médano
 mp-syndicate-to:
   - https://fosstodon.org/@jackdbd
   - https://www.linkedin.com/in/giacomodebidda/
@@ -17,7 +18,7 @@ photo:
 video: https://content.giacomodebidda.com/media/file_example_WEBM_480_900KB.webm
 date: 2024-12-01T21:04:48.000Z
 visibility: public
-updated: 2024-12-01T22:30:12+01:00
+updated: 2024-12-01T22:30:51+01:00
 ---
 
 <p>Sample <strong>note</strong> from <a href="https: //github.com/usebruno/bruno">Bruno</a></p>
