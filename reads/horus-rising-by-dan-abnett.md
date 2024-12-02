@@ -1,6 +1,6 @@
 ---
-read-status: to-read
-name: Horus Rising by Dan Abnett
+read-status: reading
+name: Horus Rising
 read-of: https://wh40k.lexicanum.com/wiki/Horus_Rising_(Novel)
 category:
   - test
